@@ -264,9 +264,9 @@ npm install
 │                                                             │
 │    Provider           Status                                │
 │    ─────────────────────────────                           │
-│    ✅ Email/Password   Enabled                              │
-│    ☐ Google           Disabled                              │
-│    ☐ Facebook         Disabled                              │
+│    [x] Email/Password  Enabled                              │
+│    [ ] Google          Disabled                             │
+│    [ ] Facebook        Disabled                             │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```

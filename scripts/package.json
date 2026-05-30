@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "setup": "node scripts/setup.js",
+    "check-env": "node scripts/check-env.js"
+  }
+}

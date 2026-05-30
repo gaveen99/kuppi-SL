@@ -1,0 +1,22 @@
+[Unit]
+Description=Kuppi past-papers daily sync (doenets.lk)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=kuppi
+Group=kuppi
+WorkingDirectory=/opt/kuppi
+EnvironmentFile=-/opt/kuppi/scripts/pastpapers/.env
+ExecStart=/usr/bin/python3 /opt/kuppi/scripts/pastpapers/sync_doenets.py --apply --firestore
+
+# Hardening
+NoNewPrivileges=true
+ProtectSystem=full
+ProtectHome=true
+PrivateTmp=true
+ReadWritePaths=/var/kuppi/papers /var/log/kuppi
+
+[Install]
+WantedBy=multi-user.target

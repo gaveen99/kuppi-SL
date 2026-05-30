@@ -1,0 +1,12 @@
+# Daily DOE past-papers sync. Runs at 03:17 local time (off-peak, jittered).
+# Install:
+#   sudo crontab -u kuppi -e
+#   (paste the line below; adjust paths to where you cloned the repo)
+#
+# The --firestore flag is optional; remove it if you don't want metadata in Firestore.
+# Logs go to /var/log/kuppi/papers-sync.log (created by the script).
+#
+# Make sure FIREBASE_ADMIN_* env vars are available — either via /etc/environment
+# or by sourcing your .env file before running.
+
+17 3 * * *  cd /opt/kuppi && . scripts/pastpapers/.env && /usr/bin/python3 scripts/pastpapers/sync_doenets.py --apply --firestore >> /var/log/kuppi/papers-sync.cron.log 2>&1

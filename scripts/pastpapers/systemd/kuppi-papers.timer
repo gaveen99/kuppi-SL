@@ -1,0 +1,14 @@
+[Unit]
+Description=Daily Kuppi past-papers sync timer
+Requires=kuppi-papers.service
+
+[Timer]
+# Run daily around 03:17 with up to 30 minutes of random jitter so we don't
+# hammer doenets.lk at the same second every day.
+OnCalendar=*-*-* 03:17:00
+RandomizedDelaySec=30min
+Persistent=true
+Unit=kuppi-papers.service
+
+[Install]
+WantedBy=timers.target

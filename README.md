@@ -1,44 +1,49 @@
-# 📚 Kuppi - Learning Platform for Sri Lankan Students
+# <img src="docs/icons/lucide/graduation-cap.svg" width="30" valign="middle"> Kuppi - Learning Platform for Sri Lankan Students
 
 <div align="center">
 
 ![Kuppi Logo](https://img.shields.io/badge/Kuppi-Learning%20Platform-6366f1?style=for-the-badge&logo=graduation-cap&logoColor=white)
 
-**A comprehensive web platform connecting students and teachers across O/L, A/L, University, and Masters levels in Sri Lanka**
+**A comprehensive web platform connecting students and teachers across O/L, A/L, University, and Masters levels in Sri Lanka** 
 
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
 [![Firebase](https://img.shields.io/badge/Firebase-Firestore-orange?style=flat-square&logo=firebase)](https://firebase.google.com/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38bdf8?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
 
-[Features](#-features) • [Installation](#-installation) • [User Guide](#-user-guide) • [API Reference](#-api-reference)
+[Features](#features) • [Screenshots](#screenshots) • [Installation](#installation) • [User Guide](#user-guide) • [API Reference](#api-reference)
+
+<br>
+
+<img src="screenshots/local/desktop/01-home.png" alt="Kuppi — home page" width="860">
 
 </div>
 
 ---
 
-## 📋 Table of Contents
+## <img src="docs/icons/lucide/list.svg" width="24" valign="middle"> Table of Contents
 
-1. [Overview](#-overview)
-2. [Features](#-features)
-3. [Tech Stack](#-tech-stack)
-4. [Installation](#-installation)
-5. [User Guide](#-user-guide)
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Screenshots](#screenshots)
+4. [Tech Stack](#tech-stack)
+5. [Installation](#installation)
+6. [User Guide](#user-guide)
    - [Getting Started](#getting-started)
    - [For Students](#for-students)
    - [For Teachers](#for-teachers)
    - [For Administrators](#for-administrators)
-6. [Messaging System](#-messaging-system)
-7. [Video Calling](#-video-calling)
-8. [File Management](#-file-management)
-9. [API Reference](#-api-reference)
-10. [Deployment](#-deployment)
-11. [Troubleshooting](#-troubleshooting)
-12. [Contributing](#-contributing)
+7. [Messaging System](#messaging-system)
+8. [Video Calling](#video-calling)
+9. [File Management](#file-management)
+10. [API Reference](#api-reference)
+11. [Deployment](#deployment)
+12. [Troubleshooting](#troubleshooting)
+13. [Contributing](#contributing)
 
 ---
 
-## 🎯 Overview
+## <img src="docs/icons/lucide/target.svg" width="24" valign="middle"> Overview
 
 Kuppi is a full-featured educational platform designed specifically for the Sri Lankan education system. It provides a seamless environment for:
 
@@ -75,76 +80,101 @@ Beyond the marketplace, Kuppi bundles a free, trilingual (English / Sinhala / Ta
 
 ---
 
-## ✨ Features
+## <img src="docs/icons/lucide/sparkles.svg" width="24" valign="middle"> Features
 
-### 👨‍🎓 For Students
+### <img src="docs/icons/lucide/graduation-cap.svg" width="22" valign="middle"> For Students
 
-| Feature | Description |
-|---------|-------------|
-| 📖 **Course Browser** | Browse and filter courses by level (O/L, A/L, University, Masters), category, and medium |
-| 📥 **Material Downloads** | Access and download study materials (PDFs, images) |
-| 🎥 **Live Sessions** | Join live sessions via integrated meeting links |
-| 📝 **Learn Requests** | Post requests to find specific teachers or subjects |
-| 💬 **Direct Messaging** | Chat with teachers in real-time |
-| 📹 **Video Calls** | One-on-one video calls with teachers |
-| ❓ **Q&A** | Ask exam questions and get answers from students and tutors |
-| 👥 **Study Buddies** | Find study partners matched by level, district, and shared subjects |
-| 🌐 **Trilingual Support** | English, Sinhala, and Tamil language options |
+| | Feature | Description |
+|:--:|---------|-------------|
+| <img src="docs/icons/lucide/book-open.svg" width="18"> | **Course Browser** | Browse and filter courses by level (O/L, A/L, University, Masters), category, and medium |
+| <img src="docs/icons/lucide/download.svg" width="18"> | **Material Downloads** | Access and download study materials (PDFs, images) |
+| <img src="docs/icons/lucide/video.svg" width="18"> | **Live Sessions** | Join live sessions via integrated meeting links |
+| <img src="docs/icons/lucide/square-pen.svg" width="18"> | **Learn Requests** | Post requests to find specific teachers or subjects |
+| <img src="docs/icons/lucide/message-circle.svg" width="18"> | **Direct Messaging** | Chat with teachers in real-time |
+| <img src="docs/icons/lucide/video.svg" width="18"> | **Video Calls** | One-on-one video calls with teachers |
+| <img src="docs/icons/lucide/circle-help.svg" width="18"> | **Q&A** | Ask exam questions and get answers from students and tutors |
+| <img src="docs/icons/lucide/users.svg" width="18"> | **Study Buddies** | Find study partners matched by level, district, and shared subjects |
+| <img src="docs/icons/lucide/globe.svg" width="18"> | **Trilingual Support** | English, Sinhala, and Tamil language options |
 
-### 👩‍🏫 For Teachers
+### <img src="docs/icons/lucide/presentation.svg" width="22" valign="middle"> For Teachers
 
-| Feature | Description |
-|---------|-------------|
-| 📚 **Course Creation** | Create comprehensive courses with modules |
-| 📤 **Material Upload** | Upload PDFs and images (lossless storage) |
-| 📅 **Live Scheduling** | Schedule live sessions (Zoom, Google Meet, Jitsi) |
-| 📢 **Teaching Offers** | Advertise your teaching services |
-| 📄 **Community Uploads** | Share past papers, model papers, and marking schemes |
-| 👥 **Student Management** | View enrolled students and communicate |
-| 💬 **Messaging** | Real-time chat with students |
-| 📹 **Video Calls** | Video conferencing with students |
+| | Feature | Description |
+|:--:|---------|-------------|
+| <img src="docs/icons/lucide/library.svg" width="18"> | **Course Creation** | Create comprehensive courses with modules |
+| <img src="docs/icons/lucide/upload.svg" width="18"> | **Material Upload** | Upload PDFs and images (lossless storage) |
+| <img src="docs/icons/lucide/calendar.svg" width="18"> | **Live Scheduling** | Schedule live sessions (Zoom, Google Meet, Jitsi) |
+| <img src="docs/icons/lucide/megaphone.svg" width="18"> | **Teaching Offers** | Advertise your teaching services |
+| <img src="docs/icons/lucide/file-text.svg" width="18"> | **Community Uploads** | Share past papers, model papers, and marking schemes |
+| <img src="docs/icons/lucide/users.svg" width="18"> | **Student Management** | View enrolled students and communicate |
+| <img src="docs/icons/lucide/message-circle.svg" width="18"> | **Messaging** | Real-time chat with students |
+| <img src="docs/icons/lucide/video.svg" width="18"> | **Video Calls** | Video conferencing with students |
 
-### 👨‍👩‍👧 For Parents
+### <img src="docs/icons/lucide/users.svg" width="22" valign="middle"> For Parents
 
-| Feature | Description |
-|---------|-------------|
-| 📊 **Parent Dashboard** | Follow your child's learning activity |
-| 📣 **Announcements** | Stay informed with platform updates |
+| | Feature | Description |
+|:--:|---------|-------------|
+| <img src="docs/icons/lucide/layout-dashboard.svg" width="18"> | **Parent Dashboard** | Follow your child's learning activity |
+| <img src="docs/icons/lucide/megaphone.svg" width="18"> | **Announcements** | Stay informed with platform updates |
 
-### 👨‍💼 For Administrators
+### <img src="docs/icons/lucide/shield-check.svg" width="22" valign="middle"> For Administrators
 
-| Feature | Description |
-|---------|-------------|
-| 📊 **Dashboard** | Overview of platform statistics |
-| 👤 **User Management** | Manage student, teacher, and parent accounts |
-| 📋 **Content Moderation** | Review and manage courses, offers, requests |
-| 📣 **Announcements** | Post platform-wide announcements |
+| | Feature | Description |
+|:--:|---------|-------------|
+| <img src="docs/icons/lucide/layout-dashboard.svg" width="18"> | **Dashboard** | Overview of platform statistics |
+| <img src="docs/icons/lucide/user-cog.svg" width="18"> | **User Management** | Manage student, teacher, and parent accounts |
+| <img src="docs/icons/lucide/clipboard-list.svg" width="18"> | **Content Moderation** | Review and manage courses, offers, requests |
+| <img src="docs/icons/lucide/megaphone.svg" width="18"> | **Announcements** | Post platform-wide announcements |
 
-### 📐 Study Resources & Exam Tools
+### <img src="docs/icons/lucide/ruler.svg" width="22" valign="middle"> Study Resources & Exam Tools
 
 Free, trilingual (English / Sinhala / Tamil) resources for the Sri Lankan exam system — no login required to browse.
 
-| Feature | Description |
-|---------|-------------|
-| 📄 **Past Papers Archive** | Free O/L, A/L, and Grade 5 Scholarship past papers, model papers, and marking schemes — sourced from the Department of Examinations, Sri Lanka |
-| 🤝 **Community Papers** | Past papers and resources uploaded and curated by Kuppi teachers and students |
-| 🧮 **Z-Score Calculator** | Estimate your A/L Z-score from raw marks using published subject means and standard deviations |
-| 🎓 **UGC Cut-off Marks** | Browse minimum Z-score cut-offs for universities and courses, filterable by stream, district, and subject |
-| 🏆 **Grade 5 Scholarship Hub** | Past papers, model papers, and exam guidance for the Grade 5 Scholarship Examination |
-| 🧭 **A/L Streams Guide** | Explore Physical Science, Biological Science, Commerce, Arts, and Technology streams — subjects, careers, and tutors |
+| | Feature | Description |
+|:--:|---------|-------------|
+| <img src="docs/icons/lucide/file-text.svg" width="18"> | **Past Papers Archive** | Free O/L, A/L, and Grade 5 Scholarship past papers, model papers, and marking schemes — sourced from the Department of Examinations, Sri Lanka |
+| <img src="docs/icons/lucide/handshake.svg" width="18"> | **Community Papers** | Past papers and resources uploaded and curated by Kuppi teachers and students |
+| <img src="docs/icons/lucide/calculator.svg" width="18"> | **Z-Score Calculator** | Estimate your A/L Z-score from raw marks using published subject means and standard deviations |
+| <img src="docs/icons/lucide/graduation-cap.svg" width="18"> | **UGC Cut-off Marks** | Browse minimum Z-score cut-offs for universities and courses, filterable by stream, district, and subject |
+| <img src="docs/icons/lucide/trophy.svg" width="18"> | **Grade 5 Scholarship Hub** | Past papers, model papers, and exam guidance for the Grade 5 Scholarship Examination |
+| <img src="docs/icons/lucide/compass.svg" width="18"> | **A/L Streams Guide** | Explore Physical Science, Biological Science, Commerce, Arts, and Technology streams — subjects, careers, and tutors |
 
-### 🔐 Authentication & Platform
+### <img src="docs/icons/lucide/lock.svg" width="22" valign="middle"> Authentication & Platform
 
-| Feature | Description |
-|---------|-------------|
-| ✉️ **Email OTP Sign-In** | Passwordless login via one-time codes sent by email |
-| 🔵 **Google Sign-In** | One-tap sign-in with a Google account |
-| 🌐 **Trilingual UI** | Full English, Sinhala, and Tamil interface |
-| 📈 **SEO & AdSense** | Server-rendered metadata, sitemap, and optional Google AdSense integration |
+| | Feature | Description |
+|:--:|---------|-------------|
+| <img src="docs/icons/lucide/mail.svg" width="18"> | **Email OTP Sign-In** | Passwordless login via one-time codes sent by email |
+| <img src="docs/icons/logos/google-icon.svg" width="16"> | **Google Sign-In** | One-tap sign-in with a Google account |
+| <img src="docs/icons/lucide/globe.svg" width="18"> | **Trilingual UI** | Full English, Sinhala, and Tamil interface |
+| <img src="docs/icons/lucide/trending-up.svg" width="18"> | **SEO & AdSense** | Server-rendered metadata, sitemap, and optional Google AdSense integration |
 
 ---
 
-## 🛠 Tech Stack
+## <img src="docs/icons/lucide/image.svg" width="24" valign="middle"> Screenshots
+
+> Desktop views of the live app. The full set — including mobile and the teacher workspace — lives in [`screenshots/`](screenshots/).
+
+<table>
+  <tr>
+    <td align="center" width="50%"><img src="screenshots/local/desktop/02-streams.png" width="420"><br><b>A/L Streams Guide</b></td>
+    <td align="center" width="50%"><img src="screenshots/local/desktop/03-courses.png" width="420"><br><b>Course Marketplace</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/local/desktop/04-past-papers.png" width="420"><br><b>Past Papers Archive</b></td>
+    <td align="center"><img src="screenshots/local/desktop/05-z-score.png" width="420"><br><b>Z-Score Calculator</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/local/desktop/06-ugc-cutoffs.png" width="420"><br><b>UGC Cut-off Marks</b></td>
+    <td align="center"><img src="screenshots/local/desktop/07-scholarship.png" width="420"><br><b>Grade 5 Scholarship Hub</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/local/desktop/08-qa.png" width="420"><br><b>Community Q&amp;A</b></td>
+    <td align="center"><img src="screenshots/local/desktop/15-auth-login.png" width="420"><br><b>Sign In — Email OTP &amp; Google</b></td>
+  </tr>
+</table>
+
+---
+
+## <img src="docs/icons/lucide/wrench.svg" width="24" valign="middle"> Tech Stack
 
 ```
 ┌────────────────────────────────────────────────────────────┐
@@ -172,7 +202,7 @@ Free, trilingual (English / Sinhala / Tamil) resources for the Sri Lankan exam s
 
 ---
 
-## 🚀 Installation
+## <img src="docs/icons/lucide/rocket.svg" width="24" valign="middle"> Installation
 
 ### Prerequisites
 
@@ -378,7 +408,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 📖 User Guide
+## <img src="docs/icons/lucide/book-open.svg" width="24" valign="middle"> User Guide
 
 ### Getting Started
 
@@ -426,7 +456,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### For Students
 
-#### 📚 Browsing Courses
+#### <img src="docs/icons/lucide/library.svg" width="20" valign="middle"> Browsing Courses
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -464,7 +494,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
    - **Medium**: English, Sinhala, Tamil
 3. Click **"View Course"** to see details
 
-#### 📖 Course Details & Enrollment
+#### <img src="docs/icons/lucide/book-open.svg" width="20" valign="middle"> Course Details & Enrollment
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -503,7 +533,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 4. Click **"Enroll in Course"** to enroll
 5. Click **"Message Teacher"** to start a conversation
 
-#### 📝 Posting Learn Requests
+#### <img src="docs/icons/lucide/square-pen.svg" width="20" valign="middle"> Posting Learn Requests
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -542,7 +572,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### For Teachers
 
-#### 📚 Creating a Course
+#### <img src="docs/icons/lucide/library.svg" width="20" valign="middle"> Creating a Course
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -584,7 +614,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
    - **Price**: Course fee (optional)
 4. Click **"Create Course"**
 
-#### 📁 Adding Modules & Materials
+#### <img src="docs/icons/lucide/folder.svg" width="20" valign="middle"> Adding Modules & Materials
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -619,11 +649,11 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 5. Click **"Add Module"**
 
 **Supported File Types:**
-- 📄 PDF documents (`.pdf`)
-- 🖼️ Images (`.jpg`, `.jpeg`, `.png`, `.gif`, `.webp`)
-- 📦 Max file size: 10MB per file
+- <img src="docs/icons/lucide/file-text.svg" width="16" valign="middle"> PDF documents (`.pdf`)
+- <img src="docs/icons/lucide/image.svg" width="16" valign="middle"> Images (`.jpg`, `.jpeg`, `.png`, `.gif`, `.webp`)
+- <img src="docs/icons/lucide/package.svg" width="16" valign="middle"> Max file size: 10MB per file
 
-#### 📅 Scheduling Live Sessions
+#### <img src="docs/icons/lucide/calendar.svg" width="20" valign="middle"> Scheduling Live Sessions
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -654,7 +684,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 3. Paste your meeting link (Google Meet, Zoom, Jitsi)
 4. Click **"Schedule Session"**
 
-#### 📢 Creating Teaching Offers
+#### <img src="docs/icons/lucide/megaphone.svg" width="20" valign="middle"> Creating Teaching Offers
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -770,17 +800,17 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 💬 Messaging System
+## <img src="docs/icons/lucide/message-circle.svg" width="24" valign="middle"> Messaging System
 
 ### Features
 
-- ✅ **Real-time messaging** with instant updates
-- ✅ **Read receipts** (single tick = sent, double tick = delivered, blue = read)
-- ✅ **Message editing** (with "edited" indicator)
-- ✅ **Message deletion** (30-minute window)
-- ✅ **File attachments** (up to 5 files per message)
-- ✅ **Image previews** inline in chat
-- ✅ **Video calling** directly from chat
+- <img src="docs/icons/lucide/circle-check.svg" width="16" valign="middle"> **Real-time messaging** with instant updates
+- <img src="docs/icons/lucide/circle-check.svg" width="16" valign="middle"> **Read receipts** (single tick = sent, double tick = delivered, blue = read)
+- <img src="docs/icons/lucide/circle-check.svg" width="16" valign="middle"> **Message editing** (with "edited" indicator)
+- <img src="docs/icons/lucide/circle-check.svg" width="16" valign="middle"> **Message deletion** (30-minute window)
+- <img src="docs/icons/lucide/circle-check.svg" width="16" valign="middle"> **File attachments** (up to 5 files per message)
+- <img src="docs/icons/lucide/circle-check.svg" width="16" valign="middle"> **Image previews** inline in chat
+- <img src="docs/icons/lucide/circle-check.svg" width="16" valign="middle"> **Video calling** directly from chat
 
 ### Message Interface
 
@@ -820,11 +850,11 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 | ✓✓ | Message delivered |
 | ✓✓ (blue) | Message read |
 | *(edited)* | Message was edited |
-| 🚫 | Message was deleted |
+| <img src="docs/icons/lucide/ban.svg" width="18" valign="middle"> | Message was deleted |
 
 ### Sending Attachments
 
-1. Click the **📎 paperclip** icon
+1. Click the **<img src="docs/icons/lucide/paperclip.svg" width="16" valign="middle"> paperclip** icon
 2. Select up to **5 files** (max 10MB each)
 3. Preview selected files
 4. Add optional text message
@@ -840,7 +870,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### Deleting Messages
 
-⚠️ **Important**: Messages can only be deleted within **30 minutes** of sending.
+<img src="docs/icons/lucide/triangle-alert.svg" width="16" valign="middle"> **Important**: Messages can only be deleted within **30 minutes** of sending.
 
 1. Hover over your message
 2. Click the **⋮ menu** icon
@@ -849,17 +879,17 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 📹 Video Calling
+## <img src="docs/icons/lucide/video.svg" width="24" valign="middle"> Video Calling
 
 ### Features
 
-- ✅ **One-on-one video calls**
-- ✅ **Pre-call preview** (see yourself before joining)
-- ✅ **Camera toggle** (on/off)
-- ✅ **Microphone toggle** (mute/unmute)
-- ✅ **Screen sharing**
-- ✅ **Incoming call notifications** with ringtone
-- ✅ **Call status** (connecting, ringing, active)
+- <img src="docs/icons/lucide/circle-check.svg" width="16" valign="middle"> **One-on-one video calls**
+- <img src="docs/icons/lucide/circle-check.svg" width="16" valign="middle"> **Pre-call preview** (see yourself before joining)
+- <img src="docs/icons/lucide/circle-check.svg" width="16" valign="middle"> **Camera toggle** (on/off)
+- <img src="docs/icons/lucide/circle-check.svg" width="16" valign="middle"> **Microphone toggle** (mute/unmute)
+- <img src="docs/icons/lucide/circle-check.svg" width="16" valign="middle"> **Screen sharing**
+- <img src="docs/icons/lucide/circle-check.svg" width="16" valign="middle"> **Incoming call notifications** with ringtone
+- <img src="docs/icons/lucide/circle-check.svg" width="16" valign="middle"> **Call status** (connecting, ringing, active)
 
 ### Starting a Video Call
 
@@ -884,7 +914,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 ```
 
 1. Open a conversation
-2. Click the **📹 Video** button
+2. Click the **<img src="docs/icons/lucide/video.svg" width="16" valign="middle"> Video** button
 3. Preview your camera (toggle on/off)
 4. Click **"Start Call"**
 
@@ -916,10 +946,10 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 | Button | Action |
 |--------|--------|
-| 🎤 | Toggle microphone (mute/unmute) |
-| 📹 | Toggle camera (on/off) |
-| 📺 | Share your screen |
-| 📴 | End the call |
+| <img src="docs/icons/lucide/mic.svg" width="18" valign="middle"> | Toggle microphone (mute/unmute) |
+| <img src="docs/icons/lucide/video.svg" width="18" valign="middle"> | Toggle camera (on/off) |
+| <img src="docs/icons/lucide/screen-share.svg" width="18" valign="middle"> | Share your screen |
+| <img src="docs/icons/lucide/phone-off.svg" width="18" valign="middle"> | End the call |
 
 ### Receiving a Call
 
@@ -942,7 +972,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 📁 File Management
+## <img src="docs/icons/lucide/folder.svg" width="24" valign="middle"> File Management
 
 ### Upload Specifications
 
@@ -1000,7 +1030,7 @@ GET /api/files/{filename}
 
 ---
 
-## 🔧 API Reference
+## <img src="docs/icons/lucide/settings.svg" width="24" valign="middle"> API Reference
 
 ### File Upload
 
@@ -1038,7 +1068,7 @@ curl http://localhost:3000/api/files/a1b2c3d4-e5f6-7890-abcd-ef1234567890.pdf
 
 ---
 
-## 🚀 Deployment
+## <img src="docs/icons/lucide/upload.svg" width="24" valign="middle"> Deployment
 
 ### Production with PM2
 
@@ -1119,7 +1149,7 @@ server {
 
 ---
 
-## 🔧 Troubleshooting
+## <img src="docs/icons/lucide/circle-help.svg" width="24" valign="middle"> Troubleshooting
 
 ### Common Issues
 
@@ -1159,7 +1189,7 @@ localStorage.setItem('debug', 'true');
 
 ---
 
-## 🤝 Contributing
+## <img src="docs/icons/lucide/handshake.svg" width="24" valign="middle"> Contributing
 
 We welcome contributions! Please follow these steps:
 
@@ -1178,13 +1208,13 @@ We welcome contributions! Please follow these steps:
 
 ---
 
-## 📄 License
+## <img src="docs/icons/lucide/file-text.svg" width="24" valign="middle"> License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 📧 Support
+## <img src="docs/icons/lucide/mail.svg" width="24" valign="middle"> Support
 
 - **Issues:** [GitHub Issues](https://github.com/gaveen99/kuppi/issues)
 - **Discussions:** [GitHub Discussions](https://github.com/gaveen99/kuppi/discussions)
@@ -1193,8 +1223,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 <div align="center">
 
-**Built with ❤️ for Sri Lankan students and educators**
+**Built with <img src="docs/icons/lucide/heart.svg" width="15" valign="middle"> for Sri Lankan students and educators**
 
-[⬆ Back to Top](#-kuppi---learning-platform-for-sri-lankan-students)
+[<img src="docs/icons/lucide/arrow-up.svg" width="14" valign="middle"> Back to Top](#kuppi---learning-platform-for-sri-lankan-students)
 
 </div>
